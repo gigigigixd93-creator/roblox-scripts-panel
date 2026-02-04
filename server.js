@@ -1,4 +1,7 @@
 require("dotenv").config()
+require("dotenv").config()
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN
+
 const express=require("express")
 const fetch=require("node-fetch")
 const {Base64}=require("js-base64")
